@@ -10,7 +10,13 @@ module.exports = {
   ],
   mode: "jit",
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        creep: ["Creepster", "cursive"],
+        anton: ["Anton", "sans-serif"],
+        fredoka: ["Fredoka One", "cursive"],
+      },
+    },
   },
   plugins: [],
 };
